@@ -1,0 +1,2 @@
+# Client-Server-Architecture-Using-IPC
+The project aims at establishing communication within a system where clients sends requests to server which further finds an appropriate processing block to process the request which returns the result to the server to forward it to requesting client. Client sends request using PIPEs and FIFOs. The synchronization between clients is provided using semaphores.
