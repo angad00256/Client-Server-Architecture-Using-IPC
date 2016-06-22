@@ -1,0 +1,13 @@
+#! /bin/bash
+
+make client1
+make client2
+make client3
+
+./client1 & ./client2 & ./client3
+
+rm client1
+rm client2
+rm client3
+
+exit 0

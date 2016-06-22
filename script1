@@ -1,0 +1,15 @@
+#! /bin/bash
+
+make server
+make pclient1
+make pclient2
+make pclient3
+
+./server
+
+rm server
+rm pclient1
+rm pclient2
+rm pclient3
+
+exit 0
